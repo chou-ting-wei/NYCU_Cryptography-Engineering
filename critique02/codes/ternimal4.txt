@@ -1,0 +1,8 @@
+# ternimal4.txt
+D: \code\voting>python ./client.py
+[VOTES] {'1': 1}
+[VOTES] {'1': 1, '2': 1}
+!VOTE
+H220039499
+1
+[VOTES] {'1': 2, '2': 1}

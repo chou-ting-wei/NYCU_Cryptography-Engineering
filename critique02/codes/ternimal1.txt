@@ -1,0 +1,24 @@
+# ternimal1.txt
+D: \code\voting>python .\server.py
+[STARTING] Server is starting...
+[LISTENING] Server is listening on 26.64.28.222
+[NEW CONNECTION] ('26.64.28.222', 9467) connected.
+D: \code\voting\server.py:77: DeprecationWarning: activeCount() is deprecated, use active_count() instead
+print(f" [ACTIVE CONNECTIONS] {threading.activeCount() - 1}")
+[ACTIVE CONNECTIONS] 1
+[NEW CONNECTION] ('26.64.28.222', 9470) connected.
+[ACTIVE CONNECTIONS] 2
+[NEW CONNECTION] ('26.64.28.222', 9473) connected.
+[ACTIVE CONNECTIONS] 3
+[('26.64.28.222', 9467)] !VOTE
+[('26.64.28.222' , 9467)] !VOTE
+[('26.64.28.222', 9467)] Voted for 1
+[VOTES] {'1': 1}
+[('26.64.28.222', 9470)] !VOTE
+[('26.64.28.222' 9470)] !VOTE
+[('26.64.28.222' 9470)] Voted for 2
+[VOTES] {'1': 1, '2': 1}
+[('26.64.28.222', 9473)] !VOTE
+[('26.64.28.222' , 9473)] !VOTE
+[('26.64.28.222' , 9473)] Voted for 1
+[VOTES] {'1': 2, '2': 1}
